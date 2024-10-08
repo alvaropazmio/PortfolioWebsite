@@ -303,6 +303,7 @@ QualitySettings:
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
     Android: 2
+    EmbeddedLinux: 0
     Lumin: 5
     Nintendo 3DS: 5
     Nintendo Switch: 5

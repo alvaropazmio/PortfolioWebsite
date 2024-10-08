@@ -2,7 +2,37 @@ fileFormatVersion: 2
 guid: 4d3f5f2e039eb6446b62426fee6d6c8b
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets
+    second: {fileID: 2100000, guid: d8fd67bba9a2516419b66410f5ffb007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets2
+    second: {fileID: 2100000, guid: d6344eb0372947f4ab661dd4c5363767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets3
+    second: {fileID: 2100000, guid: e0ee1ff5d95dc814c96e721ed8d14d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets4
+    second: {fileID: 2100000, guid: aa1d673240bc01041997a48a46999745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets5
+    second: {fileID: 2100000, guid: bae6b3d6a31478745bb67c912c90e544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen Assets6
+    second: {fileID: 2100000, guid: dafe8003415e72b42a67d55f47314183, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -32,42 +62,50 @@ ScriptedImporter:
   _textureCompression: -50
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: -1580535799172915004, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: 8870771717760279989, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -3086872305411399387, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: 5791335885708673191, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -9067247586405999354, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -1731939361902908366, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: 8437580404271760694, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: 2004431329272779871, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -7045693483045692004, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: 230581201194639616, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: 1622651556474182984, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -6954130773731047495, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+  - {fileID: -672601634226358378, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
   hasSceneData: 1
-  hasAnimationData: 0
+  hasAnimationData: 1
   hasMaterialData: 1
   hasTextureData: 1
-  animations: []
+  animations:
+  - name: CubeAction.001
+  - name: Screen AssetsAction
+  - name: Screen Assets2Action
+  - name: Screen Assets3Action
+  - name: Screen Assets4Action
+  - name: Screen Assets5Action
+  - name: Screen Assets6Action
   _extensions: []
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: 2004431329272779871, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7045693483045692004, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 230581201194639616, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 1622651556474182984, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -6954130773731047495, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -672601634226358378, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
   _mainAssetIdentifier: scenes/Scene

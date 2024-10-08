@@ -26,8 +26,13 @@ MonoBehaviour:
     BuilderScene: 
   - Path: Assets/Scenes/MainPage.unity
     Projects:
+    - ProjectPath: Needle/MainPage
+    BuilderScene: 
+  - Path: Assets/Scenes/ScrollyPage.unity
+    Projects:
     - ProjectPath: Library/PackageCache/com.needle.engine-samples@0.17.2/WebProjects~/Scrollytelling
     BuilderScene: 
   Projects:
   - ProjectPath: Needle/newProject
   - ProjectPath: Library/PackageCache/com.needle.engine-samples@0.17.2/WebProjects~/Scrollytelling
+  - ProjectPath: Needle/MainPage
