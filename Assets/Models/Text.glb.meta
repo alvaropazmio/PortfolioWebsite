@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: 2366350fb944da6429fe7e0fed7c9ea8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text Assets
+    second: {fileID: 2100000, guid: c0b5aed747ef8844fa8aec06dc233656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text Assets2
+    second: {fileID: 2100000, guid: 43eba68e5bcf0544290c1e53fd292cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text Assets3
+    second: {fileID: 2100000, guid: c9c9c0e0d1664c64391ffc7645edd4de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Text Assets4
+    second: {fileID: 2100000, guid: cd9f0d0f13e2ab4459d00bbdd181e3bf, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: 7053235454612175947, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -6799714529632450404, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -8653902609221111573, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -3504233085913138927, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  textures:
+  - {fileID: -272958237002655005, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: 6001094864548975694, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -5726796547633147497, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -1782646870294916266, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  hasSceneData: 1
+  hasAnimationData: 1
+  hasMaterialData: 1
+  hasTextureData: 1
+  animations:
+  - name: Text AssetsAction
+  - name: Text Assets2Action
+  - name: Text Assets3Action
+  - name: Text Assets3.001Action
+  - name: Text Assets4Action
+  - name: Text Assets4Action.001
+  _extensions: []
+  _textures:
+  - texture: {fileID: -272958237002655005, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {fileID: 6001094864548975694, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {fileID: -5726796547633147497, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {fileID: -1782646870294916266, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  _mainAssetIdentifier: scenes/Scene
+  _importPlugins: []

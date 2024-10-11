@@ -2,7 +2,47 @@ fileFormatVersion: 2
 guid: 23846a9d48541e44a80945020d076322
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Blender
+    second: {fileID: 2100000, guid: bcfa366b89ef0bd4795914e28f406ac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Illustrator
+    second: {fileID: 2100000, guid: 7557dadb3dc43d646857acc3bc35c16e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Kirta
+    second: {fileID: 2100000, guid: d0cef608314a6b6489e98ebca6794571, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Photoshop
+    second: {fileID: 2100000, guid: 218be9b9e3f14b641a5173b7c3e192a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Premier
+    second: {fileID: 2100000, guid: 65f0695857a10914cb3df6a35517ea20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_RealityCapture
+    second: {fileID: 2100000, guid: 4f616bca875bd54459211d8d0c080b0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Unity
+    second: {fileID: 2100000, guid: 6f60eb9b14c4f2d4e99c7e843ce59ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: L_Unreal
+    second: {fileID: 2100000, guid: 5e70bdcc8c492614895cdf93c57d8aae, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -32,28 +72,28 @@ ScriptedImporter:
   _textureCompression: -50
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: -8771166627424403242, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -3846018093981099296, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -6478536213147159724, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 3435057643272549168, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -3881267401553974590, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -159892854059787057, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -6173710718320259042, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 3893534330140156909, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -4820162290996828632, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -6193753602775452869, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 985572400065777930, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -1580535799172915004, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -6922793697723135513, guid: 23846a9d48541e44a80945020d076322, type: 3}
   textures:
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
+  - {fileID: -4808981755232349392, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 2776947337525220373, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -7260582665529862460, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -2335844692529862881, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 91450365948159076, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: 8565095433946877755, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -3583087139653026624, guid: 23846a9d48541e44a80945020d076322, type: 3}
+  - {fileID: -8976721629704374319, guid: 23846a9d48541e44a80945020d076322, type: 3}
   hasSceneData: 1
   hasAnimationData: 1
   hasMaterialData: 1
@@ -81,28 +121,28 @@ ScriptedImporter:
     used: 1
     required: 0
   _textures:
-  - texture: {instanceID: 0}
+  - texture: {fileID: -4808981755232349392, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 2776947337525220373, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -7260582665529862460, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -2335844692529862881, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 91450365948159076, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: 8565095433946877755, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -3583087139653026624, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
+  - texture: {fileID: -8976721629704374319, guid: 23846a9d48541e44a80945020d076322, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
   _mainAssetIdentifier: scenes/Scene
