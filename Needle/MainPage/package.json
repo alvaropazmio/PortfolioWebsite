@@ -10,8 +10,7 @@
   },
   "dependencies": {
 	  "@needle-tools/engine": "^3.45.0-beta",
-	  "three": "npm:@needle-tools/three@^0.162.4",
-	  "needle.samples.scrollytelling": "file:./../../Library/PackageCache/com.needle.engine-samples@0.17.2/Runtime/Scrollytelling/Needle.Samples.Scrollytelling~"
+	  "three": "npm:@needle-tools/three@^0.162.4"
 	},
   "devDependencies": {
 	  "@needle-tools/helper": "^1.9.0",

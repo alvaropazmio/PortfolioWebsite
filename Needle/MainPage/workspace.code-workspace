@@ -6,11 +6,6 @@
     {
       "name": "Needle Engine",
       "path": "./node_modules/@needle-tools/engine"
-    },
-    {
-      "name": "needle.samples.scrollytelling",
-      "path": "node_modules/needle.samples.scrollytelling",
-      "@needle:managed": true
     }
   ],
   "settings": {
