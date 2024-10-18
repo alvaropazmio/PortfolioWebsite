@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Polluted Image
+  m_Name: pencilpalooza
   m_Shader: {fileID: -6465566751694194690, guid: 478ce3626be7a5f4ea58d6b13f05a2e4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - baseColorTexture:
-        m_Texture: {fileID: 1622651556474182984, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+        m_Texture: {fileID: 7907811192107742240, guid: fe1808cb69af5a2408a8f08c5d2b4a27, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - clearcoatRoughnessTexture:
@@ -50,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - emissiveTexture:
-        m_Texture: {fileID: 1622651556474182984, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+        m_Texture: {fileID: 7907811192107742240, guid: fe1808cb69af5a2408a8f08c5d2b4a27, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - iridescenceTexture:
@@ -160,7 +160,7 @@ Material:
     - emissiveFactor: {r: 0.70888215, g: 0.8490566, b: 0.822762, a: 0}
     - specularColorFactor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5149717892378387760
+--- !u!114 &5925327426394151933
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
