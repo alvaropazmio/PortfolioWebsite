@@ -24,7 +24,7 @@ ScriptedImporter:
   _importCamera: 2
   _importAnimations: 2
   _addAnimatorComponent: 0
-  _animationLoopTime: 1
+  _animationLoopTime: 0
   _animationLoopPose: 0
   _importMaterials: 1
   _enableGpuInstancing: 0
@@ -32,7 +32,7 @@ ScriptedImporter:
   _textureCompression: -50
   optimizeGameObjects: 0
   materials:
-  - {instanceID: 0}
+  - {fileID: -6922793697723135513, guid: c718099b1e3711841929da5319f43b5c, type: 3}
   textures: []
   hasSceneData: 1
   hasAnimationData: 1
