@@ -1,18 +1,13 @@
 fileFormatVersion: 2
-guid: 2366350fb944da6429fe7e0fed7c9ea8
+guid: 639592b94ddcc0b40895e114907f926b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Text Assets
-    second: {fileID: 2100000, guid: c0b5aed747ef8844fa8aec06dc233656, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Text Assets2
-    second: {fileID: 2100000, guid: 43eba68e5bcf0544290c1e53fd292cbe, type: 2}
+      name: "YouTube_play_button_icon_(2013\u20132017).svg"
+    second: {fileID: 2100000, guid: cd5cf3127b29f0e48bd5131fa2a0cb23, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -42,11 +37,9 @@ ScriptedImporter:
   _textureCompression: -50
   optimizeGameObjects: 0
   materials:
-  - {fileID: 7053235454612175947, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
-  - {fileID: -6799714529632450404, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: 7342180000342350112, guid: 639592b94ddcc0b40895e114907f926b, type: 3}
   textures:
-  - {fileID: -272958237002655005, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
-  - {fileID: 6001094864548975694, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - {fileID: -5655131921692025867, guid: 639592b94ddcc0b40895e114907f926b, type: 3}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
@@ -54,10 +47,7 @@ ScriptedImporter:
   animations: []
   _extensions: []
   _textures:
-  - texture: {fileID: -272958237002655005, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
-    shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {fileID: 6001094864548975694, guid: 2366350fb944da6429fe7e0fed7c9ea8, type: 3}
+  - texture: {fileID: -5655131921692025867, guid: 639592b94ddcc0b40895e114907f926b, type: 3}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
   _mainAssetIdentifier: scenes/Scene

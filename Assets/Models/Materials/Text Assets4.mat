@@ -92,7 +92,7 @@ Material:
     m_Floats:
     - _BUILTIN_AlphaClip: 1
     - _BUILTIN_Blend: 0
-    - _BUILTIN_CullMode: 0
+    - _BUILTIN_CullMode: 2
     - _BUILTIN_DstBlend: 0
     - _BUILTIN_QueueControl: 1
     - _BUILTIN_QueueOffset: 0
@@ -111,7 +111,7 @@ Material:
     - _VERTEX_COLORS: 1
     - _VOLUME_ON: 0
     - _VOLUME_TRANSMISSION: 0
-    - alphaCutoff: 0.52
+    - alphaCutoff: 0.9
     - attenuationDistance: 0.001
     - baseColorTextureRotation: 0
     - baseColorTextureTexCoord: 0
