@@ -1,4 +1,5 @@
-import { Behaviour, PlayableDirector, serializeable } from "@needle-tools/engine";
+import { Behaviour, GameObject, PlayableDirector, serializeable } from "@needle-tools/engine";
+import { bool } from "three/examples/jsm/nodes/shadernode/ShaderNode";
 //import { Mathf } from "@needle-tools/engine/src/engine/engine_math";
 
 // Documentation → https://docs.needle.tools/scripting
@@ -14,9 +15,15 @@ export class CustomScroll extends Behaviour {
     @serializeable()
     lerpSpeed: number = 2.5;
 
+    private isMobile: boolean | undefined;
+
     private targetTime: number = 0;
 
     start() {
+        
+
+        this.findPlayableDirector();
+
         window.addEventListener("wheel", (evt: WheelEvent) => this.updateTime(evt.deltaY));
         let lastTouchPosition = -1;
         window.addEventListener("touchmove", (evt: TouchEvent) => {
@@ -29,6 +36,14 @@ export class CustomScroll extends Behaviour {
             }
             lastTouchPosition = evt.touches[0].clientY;
         });
+    }
+
+    private findPlayableDirector() {
+        const playableDirector = GameObject.findObjectOfType(PlayableDirector);
+
+        if (playableDirector != null) {
+
+        }
     }
 
     private updateTime(delta) {
@@ -61,4 +76,12 @@ export class CustomScroll extends Behaviour {
         t = t > 1 ? 1 : t;
         return value1 + (value2 - value1) * t;
     }
+
+    private DetectDevice() {
+        if (this.isMobile !== undefined) return this.isMobile;
+    if ((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)) {
+        return this.isMobile = true;
+    }
+        return this.isMobile = /iPhone|iPad|iPod|Android|IEMobile/i.test(navigator.userAgent);
+}
 }

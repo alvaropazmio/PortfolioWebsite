@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - baseColorTexture:
-        m_Texture: {fileID: -7045693483045692004, guid: 4d3f5f2e039eb6446b62426fee6d6c8b, type: 3}
+        m_Texture: {fileID: 2800000, guid: ec57e83958355424a8f49bed27250918, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - clearcoatRoughnessTexture:
